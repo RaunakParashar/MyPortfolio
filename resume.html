@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="action-bar">
+        <a href="index.html" class="back-link">
+            <i class="fa-solid fa-arrow-left"></i> Back to Portfolio
+        </a>
+
+        <button class="download-btn" id="downloadBtn" onclick="window.print()">
+            <i class="fa-solid fa-file-arrow-down"></i> Save as PDF / Print
+        </button>
+    </div>
+
+    <div class="pdf-container">
+        <div class="paper">
+
+            <header class="resume-header">
+                <h1 class="name">RAUNAK PARASHAR</h1>
+
+                <p class="role-title">
+                    Full Stack Developer &amp; Web Engineer
+                </p>
+
+                <div class="contact-details">
+                    <span>
+                        <i class="fa-solid fa-envelope"></i>
+                        raunakparashar03@gmail.com
+                    </span>
+
+                    <span>
+                        <i class="fa-solid fa-phone"></i>
+                        +91 6299627407
+                    </span>
+
+                    <span>
+                        <i class="fa-brands fa-github"></i>
+                        github.com/raunakparashar
+                    </span>
+
+                    <span>
+                        <i class="fa-brands fa-linkedin"></i>
+                        linkedin.com/in/raunak-parashar
+                    </span>
+                </div>
+            </header>
+
+
+            <!-- Professional Summary -->
+            <section class="section">
+                <h2 class="section-title">Professional Summary</h2>
+                <hr class="resume-divider">
+
+                <p class="summary">
+                    Results-driven Full Stack Developer with strong core foundations in JavaScript (ES6+), Node.js,
+                    Express, and React. Passionate about architecting end-to-end web applications, designing modular
+                    RESTful APIs, and implementing robust security practices like JWT authentication and webhook
+                    signature verification. Skilled in building responsive UI layouts, interactive real-time data
+                    dashboards, and integrating third-party payment gateways like Razorpay. Dedicated to writing
+                    scalable, maintainable code and building seamless digital user experiences.
+                </p>
+            </section>
+
+
+            <!-- Technical Skills -->
+            <section class="section">
+
+                <h2 class="section-title">Technical Skills</h2>
+                <hr class="resume-divider">
+
+                <div class="project-item">
+
+                    <div class="item-header">
+                        <span class="item-title">
+                            Core Technologies &amp; Architecture
+                        </span>
+
+                        <span class="date">Full Stack Stack</span>
+                    </div>
+
+                    <p class="item-sub">
+                        JavaScript (ES6+) | Node.js | React | Express.js | Firebase
+                    </p>
+
+                    <ul class="bullet-list">
+                        <li>
+                            <strong>Languages:</strong> JavaScript (ES6+), HTML5, Modern CSS3, SQL.
+                        </li>
+
+                        <li>
+                            <strong>Frontend Development:</strong> React, Chart.js, Dynamic UI/UX, CSS Grid/Flexbox,
+                            Responsive Web Design.
+                        </li>
+
+                        <li>
+                            <strong>Backend Architecture:</strong> Node.js, Express.js, RESTful API Design, Middleware,
+                            Webhook Handlers.
+                        </li>
+
+                        <li>
+                            <strong>Databases &amp; Auth:</strong> MongoDB, Firebase Auth, JWT (JSON Web Tokens),
+                            Razorpay Payment Gateway.
+                        </li>
+
+                        <li>
+                            <strong>Developer Tools:</strong> Git, GitHub, VS Code, Postman, npm, Chrome DevTools.
+                        </li>
+                    </ul>
+
+                </div>
+
+            </section>
+
+
+            <!-- Key Projects -->
+            <section class="section">
+
+                <h2 class="section-title">Key Projects</h2>
+                <hr class="resume-divider">
+
+                <div class="project-item">
+
+                    <div class="item-header">
+                        <span class="item-title">
+                            Elite Typer – Web Speed Testing Platform
+                        </span>
+
+                        <span class="date">2026</span>
+                    </div>
+
+                    <p class="item-sub">
+                        Node.js | Firebase Auth | Chart.js | Razorpay | Custom CSS
+                    </p>
+
+                    <div class="project-item">
+
+
+                        <ul class="bullet-list">
+                            <li>
+                                Architected an interactive full-stack typing performance tracking platform supporting
+                                real-time WPM calculation, accuracy tracking, and error logging.
+                            </li>
+
+                            <li>
+                                Designed interactive dynamic performance analytics dashboards using Chart.js to visually
+                                display user speed progression over time.
+                            </li>
+
+                            <li>
+                                Implemented Firebase Authentication for secure multi-method user login, account
+                                registration, and persistent user sessions.
+                            </li>
+
+                            <li>
+                                Engineered server-side Node.js backend logic integrated with Razorpay API, including
+                                automated cryptographic webhook signature verification for instant account tier
+                                upgrades.
+                            </li>
+
+                            <li>
+                                Crafted a high-contrast dark cyberpunk neon interface using vanilla CSS variables,
+                                animations.
+                            </li>
+                        </ul>
+
+                    </div>
+
+
+                    <div class="project-item">
+
+                        <div class="item-header">
+                            <span class="item-title">
+                                Scientific Calculator – Interactive Calculation Engine
+                            </span>
+
+                            <span class="date">2026</span>
+                        </div>
+
+                        <p class="item-sub">
+                            HTML5 | CSS Grid | JavaScript (ES6+) | Mathematical RegEx Parser | State Management
+                        </p>
+
+                        <div class="project-item">
+
+                            <ul class="bullet-list">
+                                <li>
+                                    Architected a responsive scientific calculation engine supporting trigonometric
+                                    ($\sin, \cos, \tan$),
+                                    logarithmic ($\log, \ln$), exponential ($x^y, x^2$), and factorial ($n!$) operations
+                                    with a dynamic DEG/RAD toggle.
+                                </li>
+
+                                <li>
+                                    Engineered robust mathematical expression evaluation logic handling operator
+                                    precedence (BODMAS/PEMDAS)
+                                    and nested parentheses safely without relying on insecure <code>eval()</code>.
+                                </li>
+
+                                <li>
+                                    Implemented comprehensive edge-case validation and state management to prevent
+                                    syntax errors, multiple decimals,
+                                    and division-by-zero application crashes.
+                                </li>
+
+                                <li>
+                                    Integrated floating-point precision correction using JavaScript number utilities to
+                                    eliminate standard binary
+                                    floating-point rounding artifacts.
+                                </li>
+
+                                <li>
+                                    Designed an accessible, gradient-themed responsive keypad using CSS Grid alongside
+                                    full
+                                    physical keyboard event
+                                    bindings (Numpad, Enter, Backspace, Escape).
+                                </li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                    <div class="project-item">
+
+                        <div class="item-header">
+                            <span class="item-title">
+                                Full-Stack Backend Auth &amp; Payment API System
+                            </span>
+
+                            <span class="date">2025</span>
+                        </div>
+
+                        <p class="item-sub">
+                            Node.js | Express.js | JWT | Postman
+                        </p>
+
+                        <ul class="bullet-list">
+                            <li>
+                                Engineered a modular REST API backend featuring secure JWT-based authentication,
+                                salted
+                                password hashing, and role-based route protection.
+                            </li>
+
+                            <li>
+                                Developed robust request-validation middleware and global error-handling logic to
+                                improve
+                                server stability and mitigate edge-case vulnerabilities.
+                            </li>
+
+                            <li>
+                                Optimized database schemas and MongoDB aggregation pipelines to lower query response
+                                latencies under concurrent server requests.
+                            </li>
+
+                            <li>
+                                Extensively tested API endpoints and webhook payload handling using Postman
+                                collection
+                                scripts before production deployment.
+                            </li>
+                        </ul>
+
+                    </div>
+
+            </section>
+
+
+            <!-- Education -->
+            <section class="section">
+
+                <h2 class="section-title">Education</h2>
+                <hr class="resume-divider">
+
+                <div class="education-item">
+
+                    <div class="item-header">
+                        <span class="item-title">
+                            Higher Secondary Education / Computer Science Focus
+                        </span>
+
+                        <span class="date">
+                            Jharkhand,India
+                        </span>
+                    </div>
+
+                    <p class="item-sub">
+                        Self-Driven Software Engineering &amp; Modern Web Architecture
+                    </p>
+
+                    <ul class="bullet-list">
+                        <li>
+                            Mastered full-stack web software development through continuous building, technical
+                            documentation, and practical project execution.
+                        </li>
+
+                        <li>
+                            Focused on JavaScript engine internals, asynchronous programming, backend REST
+                            architectures, database management, and UI design patterns.
+                        </li>
+                    </ul>
+
+                </div>
+
+            </section>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
