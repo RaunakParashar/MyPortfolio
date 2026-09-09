@@ -1,6 +1,39 @@
 document.addEventListener("DOMContentLoaded", () => {
 
     // =========================================================
+    // CHEAT BLOCKER ENGINE
+    // =========================================================
+        
+document.addEventListener("contextmenu", (e) => e.preventDefault());
+document.addEventListener("keydown", (e) => {
+    // Disable F12
+    if (e.key === "F12") {
+        e.preventDefault();
+        return false;
+    }
+
+    // Disable Ctrl+Shift+I / J / C
+    if (
+        e.ctrlKey &&
+        e.shiftKey &&
+        (e.key === "I" || e.key === "J" || e.key === "C" || e.key === "i" || e.key === "j" || e.key === "c")
+    ) {
+        e.preventDefault();
+        return false;
+    }
+
+    // Disable Ctrl+U
+    if (e.ctrlKey && (e.key === "u" || e.key === "U")) {
+        e.preventDefault();
+        return false;
+    }
+});
+
+// Disable Clipboard events
+document.addEventListener("copy", (e) => e.preventDefault());
+document.addEventListener("paste", (e) => e.preventDefault());
+document.addEventListener("cut", (e) => e.preventDefault());
+    // =========================================================
     // EMAILJS CONFIGURATION
     // =========================================================
 
